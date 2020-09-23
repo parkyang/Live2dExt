@@ -1,0 +1,43 @@
+{
+    "models": [
+        {
+            "name": "noir",
+            "enable": true,
+            "res": [
+                "models/HyperdimensionNeptunia/noir_classic/index.json",
+                "models/HyperdimensionNeptunia/noir/index.json",
+                "models/HyperdimensionNeptunia/noir_santa/index.json",
+                "models/HyperdimensionNeptunia/noireswim/index.json"
+            ],
+            "width": "100",
+            "height": "210",
+            "style": "position: fixed; z-index: 9999999999; right: 0; bottom: 0;"
+        },
+        {
+            "name": "Pio",
+            "enable": false,
+            "res": [
+                "models/hijiki/hijiki.model.json",
+                "models/tororo/tororo.model.json"
+            ],
+            "width": "100",
+            "height": "210",
+            "style": "position: fixed; z-index: 9999999999; right: 0; bottom: 0;"
+        },
+        {
+            "name": "hijiki",
+            "enable": false,
+            "res": [
+                "https://imuncle.github.io/live2d/model/Pio/model.json",
+                "https://imuncle.github.io/live2d/model/Pio/model1.json",
+                "https://imuncle.github.io/live2d/model/Pio/model2.json",
+                "https://imuncle.github.io/live2d/model/Pio/model3.json",
+                "https://imuncle.github.io/live2d/model/Pio/model4.json",
+                "https://imuncle.github.io/live2d/model/Pio/model5.json"
+            ],
+            "width": "100",
+            "height": "210",
+            "style": "position: fixed; z-index: 9999999999; right: 0; bottom: 0;"
+        }
+    ]
+}

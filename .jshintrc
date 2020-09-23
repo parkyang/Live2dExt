@@ -1,0 +1,16 @@
+{
+    "globals": {
+        "$": false,
+        "window": true,
+        "document": true,
+        "module": true
+    },
+    "strict": true,
+    "curly": true,
+    "eqeqeq": true,
+    "noarg": true,
+    "noempty": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": true
+}

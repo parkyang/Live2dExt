@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "dom"],
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@CLib/*": ["src/utils/chrome/*"]
+    },
+    // 允许编译javascript文件
+    "allowJs": true,
+    // 报告.js文件中的错误。与allowJs一起使用
+    "checkJs": true,
+    // "plugins": [],
+    // 若有未使用的局部变量则抛错
+    "noUnusedLocals": false,
+    // 若有未使用的参数则抛错
+    "noUnusedParameters": false,
+    // 类型为any时，是否需要发出警告，设置true，则不警告
+    "noImplicitAny": false,
+    // 提供迭代器全面支持
+    "downlevelIteration": true,
+    // 去掉注解
+    "removeComments": true,
+    // 从tslib导入外部的辅助方法
+    "importHelpers": true,
+    // 遇到@internal注解时，不会触发代码定义
+    "stripInternal": true,
+    // 错误信息，跟踪信息将带有颜色和样式
+    "pretty": true,
+    // 如果不是函数中的所有路径都有返回值，则提示Error
+    "noImplicitReturns": true,
+    // 允许从没有设置默认导出的模块中默认导入
+    "allowSyntheticDefaultImports": true,
+    // 使用元数据特性
+    "emitDecoratorMetadata": true,
+    // 支持ES7的装饰器特性
+    "experimentalDecorators": true,
+    // 将严格校验switch-case语法
+    "noFallthroughCasesInSwitch": true,
+    // 严格null检查模式，null和undefined值不包含在任何类型里
+    "strictNullChecks": true,
+    // 保存上一次的编译信息，下一次进行增量更新
+    "incremental": false,
+    // 不生成定义文件d.ts
+    "declaration": false,
+    // 生成.map文件
+    "sourceMap": false,
+    // 跳过默认库检查
+    "skipLibCheck": true,
+    // 输出文件的根目录
+    "outDir": "./dist",
+    // 模块的解析策略
+    // "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts", "vue.config.js"]
+}
