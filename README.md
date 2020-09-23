@@ -4,7 +4,7 @@ Live2d Cubism 2 for chrome extension
 
 ## Install
 
-1. [下载]()并解压文件
+1. [下载](https://github.com/parkyang/Live2dExt/releases/download/v0.0.1/Live2dExt.zip)并解压文件
 2. 在 <kbd>扩展程序</kbd> 中打开 <kbd>开发者模式</kbd>
 3. 点击 <kbd>已解压的扩展程序</kbd> 加载已解压的文件
 4. 刷新任何已打开页面
